@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.split-container {
+  display: flex;
+  flex-direction: row; 
+  height: 100vh;
+  width: 100vw;
+  position: relative; 
+}
+
+.split-panel {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  color: white;
+  transition: flex 0.5s ease;
+}
+
+.split-isaac {
+  background-color: #2563eb; 
+}
+
+.split-maria {
+  background-color: #9333ea; 
+}
+
+
+.text-content {
+  margin-bottom: 25px;
+}
+
+.action-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
